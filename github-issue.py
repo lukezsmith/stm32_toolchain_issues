@@ -1,5 +1,6 @@
 import sys
 import requests
+import csv
 from datetime import datetime
 def extract_github_owner_repo(url):
     # Remove trailing slash if present
@@ -29,9 +30,10 @@ def scrape_issues(owner, repo):
         return []
 
 def write_issues_to_file(repo_name, issues):
-    with open(f"{repo_name}_issues_{datetime.now().date().strftime('%d%m%y')}.txt", 'w') as file:
+    with open(f"{repo_name}_issues_{datetime.now().date().strftime('%d%m%y')}.csv", 'w') as file:
+        writer = csv.writer(file)
         for issue in issues:
-            file.write(f"[#{issue['number']}] {issue['title']}\n{issue['url']}\n")
+            writer.writerow([issue["number"], issue["title"], issue["url"]])
 
 def main():
     # Check if the URL argument is provided

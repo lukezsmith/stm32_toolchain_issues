@@ -1,0 +1,6 @@
+212,I2S: I2S_InitTypeDef doesn't have IOSWP,https://api.github.com/repos/STMicroelectronics/STM32CubeH7/issues/212
+256,H730 ADC3 Oversampling configuration bug,https://api.github.com/repos/STMicroelectronics/STM32CubeH7/issues/256
+274,"USB composite CDC-CustomHID device problem, one of I/F hangs or data corruption occurs",https://api.github.com/repos/STMicroelectronics/STM32CubeH7/issues/274
+275,STM32H7B3I-DK PLL3 VCO output exceeds 560MHz limit,https://api.github.com/repos/STMicroelectronics/STM32CubeH7/issues/275
+278,H7B3: USB with DMA generates many interrupts,https://api.github.com/repos/STMicroelectronics/STM32CubeH7/issues/278
+288,register storage class specifier is deprecated in C++17,https://api.github.com/repos/STMicroelectronics/STM32CubeH7/issues/288

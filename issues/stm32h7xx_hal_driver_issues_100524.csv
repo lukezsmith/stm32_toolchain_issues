@@ -1,0 +1,9 @@
+27,Padding warnings that need fix,https://api.github.com/repos/STMicroelectronics/stm32h7xx_hal_driver/issues/27
+30,SDMMC stuck with HAL_SD_ERROR_DATA_TIMEOUT,https://api.github.com/repos/STMicroelectronics/stm32h7xx_hal_driver/issues/30
+31,DMA2D_IRQHandler called with empty ISR register,https://api.github.com/repos/STMicroelectronics/stm32h7xx_hal_driver/issues/31
+33,Incorrect assertion in HAL_ADC_ConfigChannel() for STM32H7,https://api.github.com/repos/STMicroelectronics/stm32h7xx_hal_driver/issues/33
+36,CRYP api upgrade,https://api.github.com/repos/STMicroelectronics/stm32h7xx_hal_driver/issues/36
+41,USB HCD wrong calculation of toggle_in flag with DMA enabled,https://api.github.com/repos/STMicroelectronics/stm32h7xx_hal_driver/issues/41
+45,Undefined Macro Usage in stm32h7xx_hal_eth.h,https://api.github.com/repos/STMicroelectronics/stm32h7xx_hal_driver/issues/45
+52,[HAL][ETH] add support for mdio clause 45,https://api.github.com/repos/STMicroelectronics/stm32h7xx_hal_driver/issues/52
+54,HCD: Re-activate the USB channel if not ready.,https://api.github.com/repos/STMicroelectronics/stm32h7xx_hal_driver/issues/54

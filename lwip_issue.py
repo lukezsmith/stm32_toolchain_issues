@@ -1,4 +1,5 @@
 import requests
+import csv
 from bs4 import BeautifulSoup
 from datetime import datetime
 def scrape_issues(url):
@@ -14,13 +15,14 @@ def scrape_issues(url):
         issues = soup.find_all('tr', class_='priore')
 
         # write issues
-        with open(f"lwip_issues_{datetime.now().date().strftime('%d%m%y')}.txt", "w") as file:
+        with open(f"lwip_issues_{datetime.now().date().strftime('%d%m%y')}.csv", "w") as file:
+            writer = csv.writer(file)
             for issue in issues:
                 issue_fields = issue.find_all('a')
                 id = issue_fields[0].get_text()
                 title = issue_fields[1].get_text()
                 url = issue_fields[1].get('href')
-                file.write(f"[{id}] {title}\n{'https://savannah.nongnu.org/bugs/'+url}\n")
+                writer.writerow([id, title, 'https://savannah.nongnu.org/bugs/'+url])
 
     else:
         print("Failed to fetch page:", response.status_code)
