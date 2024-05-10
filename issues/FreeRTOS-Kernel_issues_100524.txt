@@ -1,0 +1,46 @@
+[#189] [BUG] [RISC-V] configMTIMECMP_BASE_ADDRESS (64-bit) stored in 32-bit int
+https://api.github.com/repos/FreeRTOS/FreeRTOS-Kernel/issues/189
+[#261] [Feature Request] Enhhanced mutex priority inheritance algorithm
+https://api.github.com/repos/FreeRTOS/FreeRTOS-Kernel/issues/261
+[#268] [Feature Request] add ability to discard a message from a message buffer
+https://api.github.com/repos/FreeRTOS/FreeRTOS-Kernel/issues/268
+[#307] [Feature Request] Add clarification on the effect of timer rollovers to vTaskGetRunTimeStats()
+https://api.github.com/repos/FreeRTOS/FreeRTOS-Kernel/issues/307
+[#316] [Feature Request] <Support Cortex-A35>
+https://api.github.com/repos/FreeRTOS/FreeRTOS-Kernel/issues/316
+[#331] [BUG] [ARC SEM] Memory Read Protection Violation from Secure MPU on exit from interrupt
+https://api.github.com/repos/FreeRTOS/FreeRTOS-Kernel/issues/331
+[#349] [Feature Request] Hook function after xTaskResumeAll in IDLE task 
+https://api.github.com/repos/FreeRTOS/FreeRTOS-Kernel/issues/349
+[#353] Introduce configTRACK_TASK_MEMORY_ALLOCATIONS to track dynamic allocations per task
+https://api.github.com/repos/FreeRTOS/FreeRTOS-Kernel/issues/353
+[#366] RISC-V Nested Interrupt Support
+https://api.github.com/repos/FreeRTOS/FreeRTOS-Kernel/issues/366
+[#370] [Feature Request] RISC-V SMP Support
+https://api.github.com/repos/FreeRTOS/FreeRTOS-Kernel/issues/370
+[#414] [Feature Request] SMP Support: GCC ARM_CM4F
+https://api.github.com/repos/FreeRTOS/FreeRTOS-Kernel/issues/414
+[#565] [Feature Request] Support for ARM Cortex-A78AE
+https://api.github.com/repos/FreeRTOS/FreeRTOS-Kernel/issues/565
+[#593] [Feature Request] Timers and pended functions should be separated
+https://api.github.com/repos/FreeRTOS/FreeRTOS-Kernel/issues/593
+[#608] Add VeriFast thread safety proof for context switches in SMP port
+https://api.github.com/repos/FreeRTOS/FreeRTOS-Kernel/issues/608
+[#622] [Feature Request] add FreeRTOS to conan center
+https://api.github.com/repos/FreeRTOS/FreeRTOS-Kernel/issues/622
+[#905] Granular Lock for SMP
+https://api.github.com/repos/FreeRTOS/FreeRTOS-Kernel/issues/905
+[#906] Safety Certified FreeRTOS
+https://api.github.com/repos/FreeRTOS/FreeRTOS-Kernel/issues/906
+[#907] SESIP Level 3 Certification
+https://api.github.com/repos/FreeRTOS/FreeRTOS-Kernel/issues/907
+[#908] RISC-V Kernel Security Isolation
+https://api.github.com/repos/FreeRTOS/FreeRTOS-Kernel/issues/908
+[#1012] pvPortRealloc Implementation in AVR32_UC3 Port
+https://api.github.com/repos/FreeRTOS/FreeRTOS-Kernel/issues/1012
+[#1050] Will timer task be created twice for smp x2 freertos
+https://api.github.com/repos/FreeRTOS/FreeRTOS-Kernel/issues/1050
+[#1051] list.c: improve code comments to point to official documentation about problems which may cause code to get stuck inside of list.c
+https://api.github.com/repos/FreeRTOS/FreeRTOS-Kernel/issues/1051
+[#1052] added configUSE_POSIX_ERRNO to the template FreeRTOSConfig.h
+https://api.github.com/repos/FreeRTOS/FreeRTOS-Kernel/issues/1052
